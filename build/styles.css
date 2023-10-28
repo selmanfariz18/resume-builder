@@ -1,0 +1,105 @@
+/* CSS code in styles.css */
+
+/* Reset default browser styles */
+body, h1, h2, p, ul, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #070202;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff0d00;
+    color: #fffefe;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #665656;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px; /* Added margin-top to create space */
+    border-top: 2px solid #b34800; /* Added a top border for separation */
+    padding-top: 10px; /* Added padding for spacing */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(86, 20, 20, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.template {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.template a {
+    color: #ff0055;
+    font-weight: bold;
+    border: 2px solid #421002;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+}
+
+#resume-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button[type="submit"] {
+    background-color: #ff4d00;
+    color: #9c7272;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #b34500;
+}
+
+#download-resume {
+    background-color: #ff8400;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#download-resume:hover {
+    background-color: #b30012;
+}
