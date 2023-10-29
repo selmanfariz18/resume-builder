@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Build Your Resume Here</h1>
+        <h2>Resume Builder</h2>
+    </header>
+    <main>
+        <section id="template-selection">
+            <h2>Choose a Template</h2>
+            <div class="template" id="template1">
+                <h3>Template 1</h3>
+                <a href="#" class="select-template-link">Select Template</a>
+            </div>
+            <div class="template" id="template2">
+                <h3>Template 2</h3>
+                <a href="#" class="select-template-link">Select Template</a>
+            </div>         
+        </section>
+        <section id="resume-editor" style="display: none;">
+            <h2>Edit Your Resume</h2>
+            <form id="resume-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="qualification">Highest Qualification:</label>
+                <input type="text" id="qualification" name="qualification" required>
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" required>
+                <label for="specialization">Specialization/Branch:</label>
+                <input type="text" id="specialization" name="specialization" required>
+                <label for="gradYear">Year of Graduation:</label>
+                <input type="number" id="gradYear" name="gradYear" required>
+                <button type="submit">Generate Resume</button>
+            </form>
+        </section>
+        
+        <section id="generated-resume" style="display: none;">
+            <h3>Generated Resume</h3>
+            <div id="preview-resume">    
+            </div>
+            <div class="resume-actions">
+                <button id="download-resume">Download Resume</button>      
+            </div>     
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
