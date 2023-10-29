@@ -1,13 +1,10 @@
-/* CSS code in styles.css */
-
-/* Reset default browser styles */
 body, h1, h2, p, ul, a {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-/* Global styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #070202;
@@ -29,9 +26,9 @@ h1 {
 
 h2 {
     font-size: 20px;
-    margin-top: 10px; /* Added margin-top to create space */
-    border-top: 2px solid #b34800; /* Added a top border for separation */
-    padding-top: 10px; /* Added padding for spacing */
+    margin-top: 10px; 
+    border-top: 2px solid #b34800; 
+    padding-top: 10px; 
 }
 
 main {
@@ -77,7 +74,7 @@ section {
 
 button[type="submit"] {
     background-color: #ff4d00;
-    color: #9c7272;
+    color: #f6f6f6;
     font-weight: bold;
     padding: 10px;
     border: none;
@@ -90,7 +87,7 @@ button[type="submit"]:hover {
 }
 
 #download-resume {
-    background-color: #ff8400;
+    background-color: #dda160;
     color: #fff;
     font-weight: bold;
     padding: 10px;
