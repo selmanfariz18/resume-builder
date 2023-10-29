@@ -7,16 +7,16 @@ body, h1, h2, p, ul, a {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #070202;
+    background-color: white;
     padding: 20px;
 }
 
 header {
-    background-color: #ff0d00;
-    color: #fffefe;
+    background-color: #eb0b0b;
+    color: #fff;
     text-align: center;
     padding: 20px;
-    border-bottom: 2px solid #665656;
+    border-bottom: 2px solid #6c0808;
 }
 
 h1 {
@@ -27,17 +27,18 @@ h1 {
 h2 {
     font-size: 20px;
     margin-top: 10px; 
-    border-top: 2px solid #b34800; 
+    border-top: 2px solid#6c0808; 
     padding-top: 10px; 
 }
+
 
 main {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: rgb(234, 231, 231);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(86, 20, 20, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -54,15 +55,16 @@ section {
 }
 
 .template a {
-    color: #ff0055;
+    color: white;
     font-weight: bold;
-    border: 2px solid #421002;
+    border: 2px solid rgb(166, 92, 92);
     padding: 5px 10px;
     border-radius: 5px;
     text-align: center;
     display: block;
     width: 150px;
     margin: 10px auto;
+    background-color: rgb(213, 0, 0);
 }
 
 #resume-form {
@@ -70,11 +72,26 @@ section {
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
+    color: red;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button[type="submit"] {
-    background-color: #ff4d00;
-    color: #f6f6f6;
+    background-color: red;
+    color: #fff;
     font-weight: bold;
     padding: 10px;
     border: none;
@@ -83,11 +100,11 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #b34500;
+    background-color: #722626;
 }
 
 #download-resume {
-    background-color: #dda160;
+    background-color: red;
     color: #fff;
     font-weight: bold;
     padding: 10px;
@@ -98,5 +115,47 @@ button[type="submit"]:hover {
 }
 
 #download-resume:hover {
-    background-color: #b30012;
+    background-color: #722626;
 }
+#generated-resume {
+    background-color: #f8f8f8;
+    color: red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px red;
+    margin-top: 20px;
+}
+
+#preview-resume {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+#preview-resume h3 {
+    font-size: 28px;
+    color:red;
+    margin-bottom: 10px;
+}
+
+#preview-resume p {
+    margin-bottom: 15px;
+}
+
+#download-resume {
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#download-resume:hover {
+    background-color: #722626;
+}
+
